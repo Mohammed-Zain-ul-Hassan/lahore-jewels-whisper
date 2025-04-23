@@ -52,6 +52,17 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				gold: {
+					DEFAULT: '#D4AF37',
+					light: '#F5E7A6',
+					dark: '#9E7E2D'
+				},
+				burgundy: {
+					DEFAULT: '#800020',
+					light: '#B30035',
+					dark: '#5C0018'
+				},
+				cream: '#FFFDD0',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +95,40 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'shimmer': {
+					'0%': {
+						backgroundPosition: '-200% 0'
+					},
+					'100%': {
+						backgroundPosition: '200% 0'
+					}
+				},
+				'zoom': {
+					'0%': { transform: 'scale(1)' },
+					'100%': { transform: 'scale(1.05)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out',
+				'shimmer': 'shimmer 2s linear infinite',
+				'zoom': 'zoom 0.3s ease-out forwards'
+			},
+			fontFamily: {
+				'playfair': ['"Playfair Display"', 'serif'],
+				'lato': ['Lato', 'sans-serif']
 			}
 		}
 	},
