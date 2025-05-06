@@ -1,0 +1,784 @@
+{
+    "products": [
+      {
+        "id": "22k-gold-ruby-ring",
+        "name": "22K Gold Ring with Ruby",
+        "description": "Beautiful gold ring with a genuine ruby gemstone",
+        "price": 2499,
+        "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Rings",
+        "karat": "22K",
+        "gemstone": "Ruby",
+        "featured": true,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "6.5 grams",
+          "gemstone": "Ruby",
+          "carats": "0.75 carat",
+          "dimensions": "Band width: 2mm"
+        },
+        "relatedProducts": ["diamond-engagement-ring", "gold-stud-earrings", "emerald-gold-necklace"]
+      },
+      {
+        "id": "diamond-engagement-ring",
+        "name": "Diamond Engagement Ring",
+        "description": "Stunning engagement ring with a brilliant-cut diamond",
+        "price": 3999,
+        "image": "https://images.unsplash.com/photo-1517999144091-3d9dca6d1e43?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Rings",
+        "karat": "18K",
+        "gemstone": "Diamond",
+        "featured": true,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K White Gold",
+          "weight": "4.2 grams",
+          "gemstone": "Diamond",
+          "carats": "1 carat center, 0.25 carats accent",
+          "dimensions": "Band width: 1.8mm"
+        },
+        "relatedProducts": ["22k-gold-ruby-ring", "diamond-tennis-bracelet", "sapphire-earrings"]
+      },
+      {
+        "id": "pearl-drop-earrings",
+        "name": "Pearl Drop Earrings",
+        "description": "Elegant pearl drop earrings with gold detailing",
+        "price": 1299,
+        "image": "https://images.unsplash.com/photo-1630019852942-f89202989a59?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Earrings",
+        "karat": "18K",
+        "gemstone": "Pearl",
+        "featured": true,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K Gold",
+          "weight": "3.8 grams total",
+          "gemstone": "Freshwater Pearl",
+          "carats": "N/A",
+          "dimensions": "Pearl diameter: 8.5mm"
+        },
+        "relatedProducts": ["gold-stud-earrings", "emerald-gold-necklace", "diamond-tennis-bracelet"]
+      },
+      {
+        "id": "gold-stud-earrings",
+        "name": "Gold Stud Earrings",
+        "description": "Classic gold stud earrings for everyday wear",
+        "price": 899,
+        "image": "https://images.unsplash.com/photo-1543294001-f7cd5d7fb516?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Earrings",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "2.2 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "6mm diameter"
+        },
+        "relatedProducts": ["pearl-drop-earrings", "22k-gold-ruby-ring", "gold-bangle-classic"]
+      },
+      {
+        "id": "gold-bangle-classic",
+        "name": "Classic Gold Bangle",
+        "description": "Timeless classic gold bangle for daily wear",
+        "price": 1899,
+        "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Bangles",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": true,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "15.2 grams",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "65mm inner diameter, 3mm width"
+        },
+        "relatedProducts": ["diamond-tennis-bracelet", "gold-stud-earrings", "emerald-gold-necklace"]
+      },
+      {
+        "id": "emerald-gold-necklace",
+        "name": "Emerald Gold Necklace",
+        "description": "Stunning gold necklace with emerald pendant",
+        "price": 3299,
+        "image": "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Necklaces",
+        "karat": "18K",
+        "gemstone": "Emerald",
+        "featured": true,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K Gold",
+          "weight": "7.5 grams total",
+          "gemstone": "Emerald",
+          "carats": "1.25 carats",
+          "dimensions": "Chain length: adjustable 16-18\""
+        },
+        "relatedProducts": ["22k-gold-ruby-ring", "pearl-drop-earrings", "diamond-tennis-bracelet"]
+      },
+      {
+        "id": "sapphire-earrings",
+        "name": "Sapphire Stud Earrings",
+        "description": "Beautiful sapphire studs set in gold",
+        "price": 1499,
+        "image": "https://images.unsplash.com/photo-1587502536900-baf0c55a3f74?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Earrings",
+        "karat": "18K",
+        "gemstone": "Sapphire",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K Gold",
+          "weight": "2.8 grams total",
+          "gemstone": "Sapphire",
+          "carats": "0.5 carats each",
+          "dimensions": "5mm diameter"
+        },
+        "relatedProducts": ["pearl-drop-earrings", "22k-gold-ruby-ring", "emerald-gold-necklace"]
+      },
+      {
+        "id": "diamond-tennis-bracelet",
+        "name": "Diamond Tennis Bracelet",
+        "description": "Elegant tennis bracelet with brilliant diamonds",
+        "price": 4999,
+        "image": "https://images.unsplash.com/photo-1543294001-f7cd5d7fb516?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Bracelets",
+        "karat": "18K",
+        "gemstone": "Diamond",
+        "featured": true,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K White Gold",
+          "weight": "12.5 grams",
+          "gemstone": "Diamond",
+          "carats": "3 carats total",
+          "dimensions": "7\" length, 3.5mm width"
+        },
+        "relatedProducts": ["diamond-engagement-ring", "emerald-gold-necklace", "gold-bangle-classic"]
+      },
+      {
+        "id": "ruby-pendant-necklace",
+        "name": "Ruby Pendant Necklace",
+        "description": "Beautiful ruby pendant on a delicate gold chain",
+        "price": 2499,
+        "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Necklaces",
+        "karat": "18K",
+        "gemstone": "Ruby",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K Gold",
+          "weight": "5.8 grams",
+          "gemstone": "Ruby",
+          "carats": "0.85 carat",
+          "dimensions": "Chain length: 18\""
+        },
+        "relatedProducts": ["emerald-gold-necklace", "sapphire-earrings", "diamond-tennis-bracelet"]
+      },
+      {
+        "id": "sapphire-wedding-band",
+        "name": "Sapphire Eternity Wedding Band",
+        "description": "Exquisite wedding band with channel-set blue sapphires",
+        "price": 2799,
+        "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Rings",
+        "karat": "18K",
+        "gemstone": "Sapphire",
+        "featured": false,
+        "collection": ["all", "ladies", "wedding"],
+        "specifications": {
+          "metal": "18K White Gold",
+          "weight": "4.8 grams",
+          "gemstone": "Blue Sapphire",
+          "carats": "1.5 carats total",
+          "dimensions": "Band width: 3.5mm"
+        },
+        "relatedProducts": ["diamond-engagement-ring", "pearl-drop-earrings", "sapphire-earrings"]
+      },
+      {
+        "id": "mens-signet-ring",
+        "name": "Men's Gold Signet Ring",
+        "description": "Classic men's signet ring, perfect for engraving",
+        "price": 1899,
+        "image": "https://images.unsplash.com/photo-1605101100278-5d1deb2b6498?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Rings",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "mens"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "12.5 grams",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Face size: 12mm x 10mm"
+        },
+        "relatedProducts": ["mens-gold-chain", "mens-gold-bracelet", "gold-cufflinks"]
+      },
+      {
+        "id": "emerald-statement-ring",
+        "name": "Emerald Statement Ring",
+        "description": "Bold statement ring featuring a large emerald surrounded by diamonds",
+        "price": 4599,
+        "image": "https://images.unsplash.com/photo-1603561596112-0a132b757442?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Rings",
+        "karat": "18K",
+        "gemstone": "Emerald",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K Gold",
+          "weight": "7.2 grams",
+          "gemstone": "Emerald, Diamond",
+          "carats": "2 carat emerald, 0.5 carats diamonds",
+          "dimensions": "Face size: 15mm x 12mm"
+        },
+        "relatedProducts": ["emerald-gold-necklace", "diamond-engagement-ring", "sapphire-earrings"]
+      },
+      {
+        "id": "twisted-gold-band",
+        "name": "Twisted Gold Band",
+        "description": "Modern twisted design gold band for everyday wear",
+        "price": 1199,
+        "image": "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Rings",
+        "karat": "14K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "ladies", "mens"],
+        "specifications": {
+          "metal": "14K Gold",
+          "weight": "3.8 grams",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Band width: 4mm"
+        },
+        "relatedProducts": ["gold-bangle-classic", "gold-stud-earrings", "mens-signet-ring"]
+      },
+      {
+        "id": "amethyst-cocktail-ring",
+        "name": "Amethyst Cocktail Ring",
+        "description": "Dazzling cocktail ring with deep purple amethyst centerpiece",
+        "price": 1699,
+        "image": "https://images.unsplash.com/photo-1633555715049-0c2777ee516e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Rings",
+        "karat": "18K",
+        "gemstone": "Amethyst",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K Gold",
+          "weight": "5.4 grams",
+          "gemstone": "Amethyst",
+          "carats": "3.5 carats",
+          "dimensions": "Face size: 14mm diameter"
+        },
+        "relatedProducts": ["emerald-statement-ring", "sapphire-wedding-band", "ruby-pendant-necklace"]
+      },
+      {
+        "id": "diamond-hoop-earrings",
+        "name": "Diamond Hoop Earrings",
+        "description": "Elegant diamond-studded hoop earrings for special occasions",
+        "price": 2899,
+        "image": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Earrings",
+        "karat": "18K",
+        "gemstone": "Diamond",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K White Gold",
+          "weight": "4.6 grams total",
+          "gemstone": "Diamond",
+          "carats": "0.75 carats total",
+          "dimensions": "25mm diameter"
+        },
+        "relatedProducts": ["diamond-tennis-bracelet", "diamond-engagement-ring", "pearl-drop-earrings"]
+      },
+      {
+        "id": "ruby-stud-earrings",
+        "name": "Ruby Stud Earrings",
+        "description": "Vibrant ruby stud earrings with a secure screw back",
+        "price": 1599,
+        "image": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Earrings",
+        "karat": "18K",
+        "gemstone": "Ruby",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K Gold",
+          "weight": "2.6 grams total",
+          "gemstone": "Ruby",
+          "carats": "0.6 carats each",
+          "dimensions": "5.5mm diameter"
+        },
+        "relatedProducts": ["22k-gold-ruby-ring", "ruby-pendant-necklace", "gold-stud-earrings"]
+      },
+      {
+        "id": "chandelier-earrings",
+        "name": "Diamond Chandelier Earrings",
+        "description": "Stunning chandelier earrings with cascading diamonds",
+        "price": 3499,
+        "image": "https://images.unsplash.com/photo-1611107683227-e9060eccd846?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Earrings",
+        "karat": "18K",
+        "gemstone": "Diamond",
+        "featured": true,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K White Gold",
+          "weight": "6.8 grams total",
+          "gemstone": "Diamond",
+          "carats": "1.25 carats total",
+          "dimensions": "Length: 45mm"
+        },
+        "relatedProducts": ["diamond-hoop-earrings", "diamond-tennis-bracelet", "diamond-engagement-ring"]
+      },
+      {
+        "id": "emerald-drop-earrings",
+        "name": "Emerald Drop Earrings",
+        "description": "Elegant emerald drops framed with delicate diamonds",
+        "price": 2799,
+        "image": "https://images.unsplash.com/photo-1630019852942-f89202989a59?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Earrings",
+        "karat": "18K",
+        "gemstone": "Emerald",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K Gold",
+          "weight": "4.2 grams total",
+          "gemstone": "Emerald, Diamond",
+          "carats": "1 carat emeralds, 0.3 carats diamonds",
+          "dimensions": "Length: 32mm"
+        },
+        "relatedProducts": ["emerald-gold-necklace", "emerald-statement-ring", "chandelier-earrings"]
+      },
+      {
+        "id": "gold-huggie-earrings",
+        "name": "Gold Huggie Earrings",
+        "description": "Comfortable small gold hoop earrings for everyday wear",
+        "price": 999,
+        "image": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Earrings",
+        "karat": "14K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "14K Gold",
+          "weight": "2.0 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "12mm diameter"
+        },
+        "relatedProducts": ["gold-stud-earrings", "twisted-gold-band", "gold-bangle-classic"]
+      },
+      {
+        "id": "diamond-pendant-necklace",
+        "name": "Diamond Solitaire Pendant",
+        "description": "Timeless diamond solitaire pendant on a delicate chain",
+        "price": 1999,
+        "image": "https://images.unsplash.com/photo-1600721391776-b5cd0e0048f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Necklaces",
+        "karat": "18K",
+        "gemstone": "Diamond",
+        "featured": true,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K White Gold",
+          "weight": "3.2 grams",
+          "gemstone": "Diamond",
+          "carats": "0.5 carat",
+          "dimensions": "Chain length: 18\""
+        },
+        "relatedProducts": ["diamond-engagement-ring", "diamond-hoop-earrings", "diamond-tennis-bracelet"]
+      },
+      {
+        "id": "gold-layered-necklace",
+        "name": "Layered Gold Necklace",
+        "description": "Modern three-tier layered necklace in polished gold",
+        "price": 1499,
+        "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Necklaces",
+        "karat": "14K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "14K Gold",
+          "weight": "4.5 grams",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Chain lengths: 16\", 18\", 20\""
+        },
+        "relatedProducts": ["gold-bangle-classic", "gold-stud-earrings", "twisted-gold-band"]
+      },
+      {
+        "id": "sapphire-pendant-necklace",
+        "name": "Sapphire Teardrop Pendant",
+        "description": "Elegant teardrop sapphire surrounded by diamonds",
+        "price": 2699,
+        "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Necklaces",
+        "karat": "18K",
+        "gemstone": "Sapphire",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K White Gold",
+          "weight": "4.8 grams",
+          "gemstone": "Sapphire, Diamond",
+          "carats": "1.2 carat sapphire, 0.25 carats diamonds",
+          "dimensions": "Chain length: adjustable 16-18\""
+        },
+        "relatedProducts": ["sapphire-earrings", "sapphire-wedding-band", "emerald-gold-necklace"]
+      },
+      {
+        "id": "mens-gold-chain",
+        "name": "Men's Cuban Link Chain",
+        "description": "Bold Cuban link chain for men in solid gold",
+        "price": 3899,
+        "image": "https://images.unsplash.com/photo-1619119069152-a2b331eb392a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Necklaces",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "mens"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "28.5 grams",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Chain length: 22\", width: 6mm"
+        },
+        "relatedProducts": ["mens-signet-ring", "mens-gold-bracelet", "gold-cufflinks"]
+      },
+      {
+        "id": "pearl-string-necklace",
+        "name": "Classic Pearl String Necklace",
+        "description": "Timeless string of graduated cultured pearls with a gold clasp",
+        "price": 1999,
+        "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Necklaces",
+        "karat": "18K",
+        "gemstone": "Pearl",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K Gold clasp",
+          "weight": "35.0 grams total",
+          "gemstone": "Cultured Pearls",
+          "carats": "N/A",
+          "dimensions": "Length: 18\", Pearl sizes: 5-8mm"
+        },
+        "relatedProducts": ["pearl-drop-earrings", "diamond-pendant-necklace", "gold-layered-necklace"]
+      },
+      {
+        "id": "gold-charm-bracelet",
+        "name": "Gold Charm Bracelet",
+        "description": "Personalized gold bracelet with custom charm options",
+        "price": 1799,
+        "image": "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Bracelets",
+        "karat": "18K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K Gold",
+          "weight": "14.2 grams without charms",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Length: adjustable 6.5-8\""
+        },
+        "relatedProducts": ["diamond-tennis-bracelet", "gold-bangle-classic", "gold-layered-necklace"]
+      },
+      {
+        "id": "mens-gold-bracelet",
+        "name": "Men's Cuban Link Bracelet",
+        "description": "Bold Cuban link bracelet for men to match the chain",
+        "price": 2899,
+        "image": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Bracelets",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "mens"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "22.5 grams",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Length: 8.5\", width: 6mm"
+        },
+        "relatedProducts": ["mens-gold-chain", "mens-signet-ring", "gold-cufflinks"]
+      },
+      {
+        "id": "pearl-bracelet",
+        "name": "Cultured Pearl Bracelet",
+        "description": "Elegant bracelet with cultured pearls and a secure gold clasp",
+        "price": 1299,
+        "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Bracelets",
+        "karat": "18K",
+        "gemstone": "Pearl",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K Gold clasp",
+          "weight": "12.5 grams",
+          "gemstone": "Cultured Pearls",
+          "carats": "N/A",
+          "dimensions": "Length: 7\", Pearl size: 6mm"
+        },
+        "relatedProducts": ["pearl-drop-earrings", "pearl-string-necklace", "gold-charm-bracelet"]
+      },
+      {
+        "id": "sapphire-bangle",
+        "name": "Sapphire Bangle Bracelet",
+        "description": "Elegant bangle with sapphire and diamond accents",
+        "price": 2499,
+        "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Bracelets",
+        "karat": "18K",
+        "gemstone": "Sapphire",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K White Gold",
+          "weight": "18.5 grams",
+          "gemstone": "Sapphire, Diamond",
+          "carats": "1.5 carats sapphires, 0.25 carats diamonds",
+          "dimensions": "Inner diameter: 65mm, width: 5mm"
+        },
+        "relatedProducts": ["gold-bangle-classic", "sapphire-earrings", "sapphire-pendant-necklace"]
+      },
+      {
+        "id": "rose-gold-cuff",
+        "name": "Rose Gold Cuff Bracelet",
+        "description": "Modern open cuff bracelet in polished rose gold",
+        "price": 1499,
+        "image": "https://images.unsplash.com/photo-1603974372039-adc49044b6bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Bracelets",
+        "karat": "18K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K Rose Gold",
+          "weight": "12.8 grams",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Size: adjustable, width: 8mm"
+        },
+        "relatedProducts": ["gold-charm-bracelet", "gold-bangle-classic", "twisted-gold-band"]
+      },
+      {
+        "id": "diamond-bangle",
+        "name": "Diamond Encrusted Bangle",
+        "description": "Luxurious bangle with pavé diamonds all around",
+        "price": 4999,
+        "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Bangles",
+        "karat": "18K",
+        "gemstone": "Diamond",
+        "featured": true,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K White Gold",
+          "weight": "18.5 grams",
+          "gemstone": "Diamond",
+          "carats": "2.5 carats total",
+          "dimensions": "Inner diameter: 65mm, width: 5mm"
+        },
+        "relatedProducts": ["diamond-tennis-bracelet", "diamond-hoop-earrings", "diamond-pendant-necklace"]
+      },
+      {
+        "id": "twisted-gold-bangle",
+        "name": "Twisted Gold Bangle",
+        "description": "Modern twisted design bangle with unique texture",
+        "price": 2299,
+        "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Bangles",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "16.8 grams",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Inner diameter: 65mm, width: 4mm"
+        },
+        "relatedProducts": ["gold-bangle-classic", "twisted-gold-band", "gold-charm-bracelet"]
+      },
+      {
+        "id": "ruby-bangle",
+        "name": "Ruby Accent Bangle",
+        "description": "Elegant gold bangle with ruby and diamond accents",
+        "price": 2999,
+        "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Bangles",
+        "karat": "18K",
+        "gemstone": "Ruby",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K Gold",
+          "weight": "17.2 grams",
+          "gemstone": "Ruby, Diamond",
+          "carats": "1.2 carats rubies, 0.3 carats diamonds",
+          "dimensions": "Inner diameter: 65mm, width: 6mm"
+        },
+        "relatedProducts": ["22k-gold-ruby-ring", "ruby-stud-earrings", "ruby-pendant-necklace"]
+      },
+      {
+        "id": "rose-gold-bangle",
+        "name": "Rose Gold Bangle Set",
+        "description": "Set of three slim rose gold bangles",
+        "price": 1999,
+        "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Bangles",
+        "karat": "18K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K Rose Gold",
+          "weight": "12.5 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Inner diameter: 65mm, width: 2mm each"
+        },
+        "relatedProducts": ["rose-gold-cuff", "gold-bangle-classic", "twisted-gold-bangle"]
+      },
+      {
+        "id": "emerald-bangle",
+        "name": "Emerald Bangle",
+        "description": "Luxurious bangle with emerald and diamond stations",
+        "price": 3499,
+        "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Bangles",
+        "karat": "18K",
+        "gemstone": "Emerald",
+        "featured": false,
+        "collection": ["all", "ladies"],
+        "specifications": {
+          "metal": "18K Gold",
+          "weight": "18.5 grams",
+          "gemstone": "Emerald, Diamond",
+          "carats": "1.5 carats emeralds, 0.5 carats diamonds",
+          "dimensions": "Inner diameter: 65mm, width: 5mm"
+        },
+        "relatedProducts": ["emerald-gold-necklace", "emerald-statement-ring", "emerald-drop-earrings"]
+      },
+      {
+        "id": "gold-cufflinks",
+        "name": "Gold Square Cufflinks",
+        "description": "Classic square cufflinks in polished gold",
+        "price": 1299,
+        "image": "https://images.unsplash.com/photo-1550971264-3f7e4a7bb349?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Men's Jewelry",
+        "karat": "18K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "mens"],
+        "specifications": {
+          "metal": "18K Gold",
+          "weight": "8.5 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "14mm x 14mm each"
+        },
+        "relatedProducts": ["mens-signet-ring", "mens-gold-chain", "mens-gold-bracelet"]
+      },
+      {
+        "id": "onyx-cufflinks",
+        "name": "Gold and Onyx Cufflinks",
+        "description": "Elegant cufflinks with black onyx inlay",
+        "price": 1499,
+        "image": "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Men's Jewelry",
+        "karat": "18K",
+        "gemstone": "Onyx",
+        "featured": false,
+        "collection": ["all", "mens"],
+        "specifications": {
+          "metal": "18K Gold",
+          "weight": "9.2 grams total",
+          "gemstone": "Black Onyx",
+          "carats": "N/A",
+          "dimensions": "16mm x 12mm each"
+        },
+        "relatedProducts": ["gold-cufflinks", "mens-signet-ring", "mens-gold-bracelet"]
+      },
+      {
+        "id": "mens-diamond-ring",
+        "name": "Men's Diamond Band",
+        "description": "Sophisticated men's ring with channel-set diamonds",
+        "price": 2499,
+        "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Men's Jewelry",
+        "karat": "18K",
+        "gemstone": "Diamond",
+        "featured": false,
+        "collection": ["all", "mens"],
+        "specifications": {
+          "metal": "18K White Gold",
+          "weight": "10.5 grams",
+          "gemstone": "Diamond",
+          "carats": "0.75 carats total",
+          "dimensions": "Band width: 7mm"
+        },
+        "relatedProducts": ["mens-signet-ring", "gold-cufflinks", "onyx-cufflinks"]
+      },
+      {
+        "id": "mens-black-bracelet",
+        "name": "Men's Gold and Leather Bracelet",
+        "description": "Modern bracelet combining black leather with gold accents",
+        "price": 1299,
+        "image": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Men's Jewelry",
+        "karat": "18K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "mens"],
+        "specifications": {
+          "metal": "18K Gold",
+          "weight": "15.5 grams",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Length: adjustable 7.5-9\""
+        },
+        "relatedProducts": ["mens-gold-bracelet", "mens-signet-ring", "mens-gold-chain"]
+      },
+      {
+        "id": "mens-gold-tie-clip",
+        "name": "Gold Tie Clip",
+        "description": "Classic gold tie clip with textured pattern",
+        "price": 899,
+        "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "category": "Men's Jewelry",
+        "karat": "18K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "mens"],
+        "specifications": {
+          "metal": "18K Gold",
+          "weight": "5.8 grams",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "55mm x 6mm"
+        },
+        "relatedProducts": ["gold-cufflinks", "onyx-cufflinks", "mens-signet-ring"]
+      }
+    ]
+  }

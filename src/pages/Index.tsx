@@ -34,7 +34,7 @@ const Index = () => {
       id: "diamond-engagement-ring",
       name: "Diamond Engagement Ring",
       price: 3999,
-      image: "https://images.unsplash.com/photo-1517999144091-3d9dca6d1e43?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
       category: "Rings"
     },
     {
@@ -172,7 +172,7 @@ const Index = () => {
             <div className="order-1 md:order-2">
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  src="https://images.unsplash.com/photo-1603974372039-adc49044b6bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
                   alt="Jewelry craftsmanship"
                   className="rounded-lg shadow-lg"
                 />

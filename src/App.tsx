@@ -9,6 +9,9 @@ import NotFound from "./pages/NotFound";
 import Collections from "./pages/Collections";
 import AllProducts from "./pages/AllProducts";
 import LadiesCollection from "./pages/LadiesCollection";
+import RingsCollection from "./pages/RingsCollection";
+import EarringsCollection from "./pages/EarringsCollection";
+import BanglesCollection from "./pages/BanglesCollection";
 import ProductDetail from "./pages/ProductDetail";
 import AboutUs from "./pages/AboutUs";
 import Stores from "./pages/Stores";
@@ -31,8 +34,11 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/collections" element={<Collections />} />
-              <Route path="/collections/all-products" element={<AllProducts />} />
               <Route path="/collections/ladies-collection" element={<LadiesCollection />} />
+              <Route path="/collections/rings" element={<RingsCollection />} />
+              <Route path="/collections/earrings" element={<EarringsCollection />} />
+              <Route path="/collections/bangles" element={<BanglesCollection />} />
+              <Route path="/collections/:category" element={<AllProducts />} />
               <Route path="/products/:productId" element={<ProductDetail />} />
               <Route path="/pages/about-us" element={<AboutUs />} />
               <Route path="/pages/stores" element={<Stores />} />

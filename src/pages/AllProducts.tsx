@@ -1,108 +1,29 @@
 
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Link, useParams } from "react-router-dom";
 import { Slider } from "@/components/ui/slider";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 
-// Mock product data
-const allProducts = [
-  {
-    id: "22k-gold-ruby-ring",
-    name: "22K Gold Ring with Ruby",
-    description: "Beautiful gold ring with a genuine ruby gemstone",
-    price: 2499,
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    category: "Rings",
-    karat: "22K",
-    gemstone: "Ruby",
-    featured: true
-  },
-  {
-    id: "diamond-engagement-ring",
-    name: "Diamond Engagement Ring",
-    description: "Stunning engagement ring with a brilliant-cut diamond",
-    price: 3999,
-    image: "https://images.unsplash.com/photo-1517999144091-3d9dca6d1e43?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    category: "Rings",
-    karat: "18K",
-    gemstone: "Diamond",
-    featured: true
-  },
-  {
-    id: "pearl-drop-earrings",
-    name: "Pearl Drop Earrings",
-    description: "Elegant pearl drop earrings with gold detailing",
-    price: 1299,
-    image: "https://images.unsplash.com/photo-1630019852942-f89202989a59?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    category: "Earrings",
-    karat: "18K",
-    gemstone: "Pearl",
-    featured: true
-  },
-  {
-    id: "gold-stud-earrings",
-    name: "Gold Stud Earrings",
-    description: "Classic gold stud earrings for everyday wear",
-    price: 899,
-    image: "https://images.unsplash.com/photo-1676395173164-901bfd16c0b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    category: "Earrings",
-    karat: "22K",
-    gemstone: "None",
-    featured: false
-  },
-  {
-    id: "gold-bangle-classic",
-    name: "Classic Gold Bangle",
-    description: "Timeless classic gold bangle for daily wear",
-    price: 1899,
-    image: "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    category: "Bangles",
-    karat: "22K",
-    gemstone: "None",
-    featured: true
-  },
-  {
-    id: "emerald-gold-necklace",
-    name: "Emerald Gold Necklace",
-    description: "Stunning gold necklace with emerald pendant",
-    price: 3299,
-    image: "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    category: "Necklaces",
-    karat: "18K",
-    gemstone: "Emerald",
-    featured: true
-  },
-  {
-    id: "sapphire-earrings",
-    name: "Sapphire Stud Earrings",
-    description: "Beautiful sapphire studs set in gold",
-    price: 1499,
-    image: "https://images.unsplash.com/photo-1630019828251-9d97952f6b74?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    category: "Earrings",
-    karat: "18K",
-    gemstone: "Sapphire",
-    featured: false
-  },
-  {
-    id: "diamond-tennis-bracelet",
-    name: "Diamond Tennis Bracelet",
-    description: "Elegant tennis bracelet with brilliant diamonds",
-    price: 4999,
-    image: "https://images.unsplash.com/photo-1626784215021-2e914faeec2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    category: "Bracelets",
-    karat: "18K",
-    gemstone: "Diamond",
-    featured: true
-  }
-];
+import productsData from '../data/products.json';
+
+const allProducts = productsData.products;
 
 const AllProducts = () => {
+  const { category } = useParams<{ category: string }>();
   const [priceRange, setPriceRange] = useState([0, 5000]);
   const [selectedKarats, setSelectedKarats] = useState<string[]>([]);
   const [selectedGemstones, setSelectedGemstones] = useState<string[]>([]);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [sortBy, setSortBy] = useState("featured");
+
+  useEffect(() => {
+    if (category && category !== 'all-products') {
+      setSelectedCategories([category]);
+    } else {
+      setSelectedCategories([]);
+    }
+  }, [category]);
 
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat('en-US', {
@@ -138,7 +59,7 @@ const AllProducts = () => {
   });
 
   // Sort products
-  let sortedProducts = [...filteredProducts];
+  const sortedProducts = [...filteredProducts];
   if (sortBy === "price-low-high") {
     sortedProducts.sort((a, b) => a.price - b.price);
   } else if (sortBy === "price-high-low") {
@@ -182,7 +103,9 @@ const AllProducts = () => {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-playfair font-bold mb-4">All Products</h1>
+        <h1 className="text-4xl font-playfair font-bold mb-4">
+          {category === 'all-products' ? 'All Products' : category?.charAt(0).toUpperCase() + category?.slice(1)}
+        </h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
           Discover our exquisite collection of fine jewelry, each piece crafted with precision and care.
         </p>

@@ -1,15 +1,12 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import productsData from '../data/products.json';
 
-// Filter products for Ladies Collection
-const ladiesProducts = productsData.products.filter(product => product.collection.includes('ladies'));
+// Filter products for Rings Collection
+const ringsProducts = productsData.products.filter(product => product.category === 'Rings');
 
-const LadiesCollection = () => {
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-
+const RingsCollection = () => {
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat('en-US', {
       style: 'currency',
@@ -18,73 +15,38 @@ const LadiesCollection = () => {
     }).format(price);
   };
 
-  // Filter products by category if selected
-  const filteredProducts = selectedCategory
-    ? ladiesProducts.filter(product => product.category === selectedCategory)
-    : ladiesProducts;
-
-  // Get unique categories
-  const categories = Array.from(new Set(ladiesProducts.map(product => product.category)));
-
   return (
     <div className="container mx-auto px-4 py-12">
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-playfair font-bold mb-4">Ladies Collection</h1>
+        <h1 className="text-4xl font-playfair font-bold mb-4">Rings Collection</h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Discover our exquisite collection of jewelry designed for the modern woman, combining timeless elegance with contemporary style.
+          Explore our stunning collection of rings, from classic wedding bands to statement pieces.
         </p>
       </div>
 
       {/* Feature Banner */}
       <div className="relative w-full h-64 md:h-96 mb-12 rounded-lg overflow-hidden">
         <img 
-          src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
-          alt="Ladies Collection" 
+          src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" 
+          alt="Rings Collection" 
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/30 flex items-center justify-center p-8">
           <div className="text-center">
             <h2 className="text-3xl md:text-4xl font-playfair font-bold text-white mb-4">
-              Elegance in Every Piece
+              Timeless Elegance
             </h2>
             <p className="text-white md:text-lg max-w-lg mx-auto">
-              Crafted with precision and designed with passion for the modern woman.
+              Each ring tells a unique story of craftsmanship and beauty.
             </p>
           </div>
         </div>
       </div>
 
-      {/* Category Filters */}
-      <div className="flex justify-center flex-wrap gap-3 mb-10">
-        <button 
-          className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${
-            selectedCategory === null
-              ? "bg-gold text-white hover:bg-gold-dark"
-              : "bg-white border border-gold text-gold hover:bg-gold/5"
-          }`}
-          onClick={() => setSelectedCategory(null)}
-        >
-          All
-        </button>
-        {categories.map(category => (
-          <button 
-            key={category}
-            className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${
-              selectedCategory === category
-                ? "bg-gold text-white hover:bg-gold-dark"
-                : "bg-white border border-gold text-gold hover:bg-gold/5"
-            }`}
-            onClick={() => setSelectedCategory(category)}
-          >
-            {category}
-          </button>
-        ))}
-      </div>
-
       {/* Products Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredProducts.map((product) => (
+        {ringsProducts.map((product) => (
           <Link 
             to={`/products/${product.id}`} 
             key={product.id}
@@ -114,7 +76,7 @@ const LadiesCollection = () => {
       <div className="mt-16 bg-gold/10 rounded-lg p-8 text-center">
         <h3 className="text-2xl font-playfair font-bold mb-4">Looking for Something Special?</h3>
         <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-          If you can't find exactly what you're looking for, we offer custom jewelry design services to create your perfect piece.
+          If you can't find exactly what you're looking for, we offer custom ring design services to create your perfect piece.
         </p>
         <Link
           to="/pages/contact-us"
@@ -127,4 +89,4 @@ const LadiesCollection = () => {
   );
 };
 
-export default LadiesCollection;
+export default RingsCollection;

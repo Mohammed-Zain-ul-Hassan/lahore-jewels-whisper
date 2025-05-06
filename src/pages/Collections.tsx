@@ -22,28 +22,28 @@ const Collections = () => {
       title: "Rings",
       description: "Stunning rings for every occasion",
       image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      link: "/collections/all-products"
+      link: "/collections/rings"
     },
     {
       id: "earrings",
       title: "Earrings",
       description: "Beautiful earrings to complement your style",
       image: "https://images.unsplash.com/photo-1630019852942-f89202989a59?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      link: "/collections/all-products"
+      link: "/collections/earrings"
     },
     {
       id: "bangles",
       title: "Bangles & Bracelets",
       description: "Elegant bangles and bracelets for your wrist",
       image: "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      link: "/collections/all-products"
+      link: "/collections/bangles"
     },
     {
       id: "necklaces",
       title: "Necklaces",
       description: "Stunning necklaces for any occasion",
       image: "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      link: "/collections/all-products"
+      link: "/collections/necklaces"
     }
   ];
 

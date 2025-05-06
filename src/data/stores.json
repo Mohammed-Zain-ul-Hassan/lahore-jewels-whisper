@@ -1,0 +1,34 @@
+{
+  "stores": [
+    {
+      "id": 1,
+      "name": "Lahori Jewellers - Main Store",
+      "address": "123 Mall Road, Lahore, Punjab, Pakistan",
+      "phone": "+92 42 1234 5678",
+      "email": "mainstore@lahorijewellers.com",
+      "hours": "Monday - Saturday: 10:00 AM - 8:00 PM\nSunday: 12:00 PM - 6:00 PM",
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.5386645598397!2d74.3142139!3d31.5505847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190459f4a001a9%3A0x6e09f6da74bf0c50!2sMall%20Rd%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1619745961936!5m2!1sen!2s",
+      "image": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Lahori Jewellers - Liberty Branch",
+      "address": "45 Liberty Market, Gulberg, Lahore, Pakistan",
+      "phone": "+92 42 3587 9012",
+      "email": "liberty@lahorijewellers.com",
+      "hours": "Monday - Saturday: 11:00 AM - 9:00 PM\nSunday: Closed",
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.966194606122!2d74.3478222!3d31.5384863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904f824ebb8e9%3A0xcaf3f813febfc154!2sLiberty%20Market%2C%20Gulberg%20III%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1619746090127!5m2!1sen!2s",
+      "image": "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Lahori Jewellers - DHA Phase 5",
+      "address": "78 Y Block, DHA Phase 5, Lahore, Pakistan",
+      "phone": "+92 42 6789 3456",
+      "email": "dha@lahorijewellers.com",
+      "hours": "Monday - Saturday: 10:30 AM - 8:30 PM\nSunday: 1:00 PM - 7:00 PM",
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.0429504787383!2d74.3886247!3d31.5050641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919033452b26c19%3A0xb6f14b77db11c9ba!2sY%20Block%20Phase%205%20DHA%2C%20Lahore%2C%20Punjab%2054000%2C%20Pakistan!5e0!3m2!1sen!2s!4v1619746181938!5m2!1sen!2s",
+      "image": "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    }
+  ]
+}
