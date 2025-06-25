@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 const Collections = () => {
@@ -16,6 +15,13 @@ const Collections = () => {
       description: "Elegant jewelry designed for the modern woman",
       image: "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
       link: "/collections/ladies-collection"
+    },
+    {
+      id: "bridal-sets",
+      title: "Bridal Sets",
+      description: "Exquisite bridal jewelry for your special day",
+      image: "/WhatsApp Image 2025-06-19 at 4.09.35 PM.jpeg",
+      link: "/collections/bridal-sets"
     },
     {
       id: "rings",

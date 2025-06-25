@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { Slider } from "@/components/ui/slider";
@@ -11,7 +10,7 @@ const allProducts = productsData.products;
 
 const AllProducts = () => {
   const { category } = useParams<{ category: string }>();
-  const [priceRange, setPriceRange] = useState([0, 5000]);
+  const [priceRange, setPriceRange] = useState([0, 20000]);
   const [selectedKarats, setSelectedKarats] = useState<string[]>([]);
   const [selectedGemstones, setSelectedGemstones] = useState<string[]>([]);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
@@ -122,9 +121,9 @@ const AllProducts = () => {
               <h3 className="font-medium mb-3">Price Range</h3>
               <div className="px-2">
                 <Slider
-                  defaultValue={[0, 5000]}
-                  max={5000}
-                  step={100}
+                  defaultValue={[0, 20000]}
+                  max={20000}
+                  step={500}
                   value={priceRange}
                   onValueChange={setPriceRange}
                   className="my-4"
