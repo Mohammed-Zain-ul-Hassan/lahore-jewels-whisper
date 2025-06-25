@@ -18,27 +18,7 @@
           "carats": "0.75 carat",
           "dimensions": "Band width: 2mm"
         },
-        "relatedProducts": ["diamond-engagement-ring", "gold-stud-earrings", "emerald-gold-necklace"]
-      },
-      {
-        "id": "diamond-engagement-ring",
-        "name": "Diamond Engagement Ring",
-        "description": "Stunning engagement ring with a brilliant-cut diamond",
-        "price": 3999,
-        "image": "https://images.unsplash.com/photo-1517999144091-3d9dca6d1e43?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "category": "Rings",
-        "karat": "18K",
-        "gemstone": "Diamond",
-        "featured": true,
-        "collection": ["all", "ladies"],
-        "specifications": {
-          "metal": "18K White Gold",
-          "weight": "4.2 grams",
-          "gemstone": "Diamond",
-          "carats": "1 carat center, 0.25 carats accent",
-          "dimensions": "Band width: 1.8mm"
-        },
-        "relatedProducts": ["22k-gold-ruby-ring", "diamond-tennis-bracelet", "sapphire-earrings"]
+        "relatedProducts": ["pearl-drop-earrings", "emerald-gold-necklace"]
       },
       {
         "id": "pearl-drop-earrings",
@@ -58,27 +38,7 @@
           "carats": "N/A",
           "dimensions": "Pearl diameter: 8.5mm"
         },
-        "relatedProducts": ["gold-stud-earrings", "emerald-gold-necklace", "diamond-tennis-bracelet"]
-      },
-      {
-        "id": "gold-stud-earrings",
-        "name": "Gold Stud Earrings",
-        "description": "Classic gold stud earrings for everyday wear",
-        "price": 899,
-        "image": "https://images.unsplash.com/photo-1543294001-f7cd5d7fb516?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "category": "Earrings",
-        "karat": "22K",
-        "gemstone": "None",
-        "featured": false,
-        "collection": ["all"],
-        "specifications": {
-          "metal": "22K Gold",
-          "weight": "2.2 grams total",
-          "gemstone": "None",
-          "carats": "N/A",
-          "dimensions": "6mm diameter"
-        },
-        "relatedProducts": ["pearl-drop-earrings", "22k-gold-ruby-ring", "gold-bangle-classic"]
+        "relatedProducts": ["emerald-gold-necklace"]
       },
       {
         "id": "gold-bangle-classic",
@@ -98,7 +58,7 @@
           "carats": "N/A",
           "dimensions": "65mm inner diameter, 3mm width"
         },
-        "relatedProducts": ["diamond-tennis-bracelet", "gold-stud-earrings", "emerald-gold-necklace"]
+        "relatedProducts": ["emerald-gold-necklace"]
       },
       {
         "id": "emerald-gold-necklace",
@@ -118,47 +78,7 @@
           "carats": "1.25 carats",
           "dimensions": "Chain length: adjustable 16-18\""
         },
-        "relatedProducts": ["22k-gold-ruby-ring", "pearl-drop-earrings", "diamond-tennis-bracelet"]
-      },
-      {
-        "id": "sapphire-earrings",
-        "name": "Sapphire Stud Earrings",
-        "description": "Beautiful sapphire studs set in gold",
-        "price": 1499,
-        "image": "https://images.unsplash.com/photo-1587502536900-baf0c55a3f74?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "category": "Earrings",
-        "karat": "18K",
-        "gemstone": "Sapphire",
-        "featured": false,
-        "collection": ["all", "ladies"],
-        "specifications": {
-          "metal": "18K Gold",
-          "weight": "2.8 grams total",
-          "gemstone": "Sapphire",
-          "carats": "0.5 carats each",
-          "dimensions": "5mm diameter"
-        },
-        "relatedProducts": ["pearl-drop-earrings", "22k-gold-ruby-ring", "emerald-gold-necklace"]
-      },
-      {
-        "id": "diamond-tennis-bracelet",
-        "name": "Diamond Tennis Bracelet",
-        "description": "Elegant tennis bracelet with brilliant diamonds",
-        "price": 4999,
-        "image": "https://images.unsplash.com/photo-1543294001-f7cd5d7fb516?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "category": "Bracelets",
-        "karat": "18K",
-        "gemstone": "Diamond",
-        "featured": true,
-        "collection": ["all", "ladies"],
-        "specifications": {
-          "metal": "18K White Gold",
-          "weight": "12.5 grams",
-          "gemstone": "Diamond",
-          "carats": "3 carats total",
-          "dimensions": "7\" length, 3.5mm width"
-        },
-        "relatedProducts": ["diamond-engagement-ring", "emerald-gold-necklace", "gold-bangle-classic"]
+        "relatedProducts": ["22k-gold-ruby-ring", "pearl-drop-earrings"]
       },
       {
         "id": "ruby-pendant-necklace",
@@ -178,47 +98,7 @@
           "carats": "0.85 carat",
           "dimensions": "Chain length: 18\""
         },
-        "relatedProducts": ["emerald-gold-necklace", "sapphire-earrings", "diamond-tennis-bracelet"]
-      },
-      {
-        "id": "sapphire-wedding-band",
-        "name": "Sapphire Eternity Wedding Band",
-        "description": "Exquisite wedding band with channel-set blue sapphires",
-        "price": 2799,
-        "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "category": "Rings",
-        "karat": "18K",
-        "gemstone": "Sapphire",
-        "featured": false,
-        "collection": ["all", "ladies", "wedding"],
-        "specifications": {
-          "metal": "18K White Gold",
-          "weight": "4.8 grams",
-          "gemstone": "Blue Sapphire",
-          "carats": "1.5 carats total",
-          "dimensions": "Band width: 3.5mm"
-        },
-        "relatedProducts": ["diamond-engagement-ring", "pearl-drop-earrings", "sapphire-earrings"]
-      },
-      {
-        "id": "mens-signet-ring",
-        "name": "Men's Gold Signet Ring",
-        "description": "Classic men's signet ring, perfect for engraving",
-        "price": 1899,
-        "image": "https://images.unsplash.com/photo-1605101100278-5d1deb2b6498?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "category": "Rings",
-        "karat": "22K",
-        "gemstone": "None",
-        "featured": false,
-        "collection": ["all", "mens"],
-        "specifications": {
-          "metal": "22K Gold",
-          "weight": "12.5 grams",
-          "gemstone": "None",
-          "carats": "N/A",
-          "dimensions": "Face size: 12mm x 10mm"
-        },
-        "relatedProducts": ["mens-gold-chain", "mens-gold-bracelet", "gold-cufflinks"]
+        "relatedProducts": ["emerald-gold-necklace", "sapphire-earrings"]
       },
       {
         "id": "emerald-statement-ring",
@@ -241,46 +121,6 @@
         "relatedProducts": ["emerald-gold-necklace", "diamond-engagement-ring", "sapphire-earrings"]
       },
       {
-        "id": "twisted-gold-band",
-        "name": "Twisted Gold Band",
-        "description": "Modern twisted design gold band for everyday wear",
-        "price": 1199,
-        "image": "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "category": "Rings",
-        "karat": "14K",
-        "gemstone": "None",
-        "featured": false,
-        "collection": ["all", "ladies", "mens"],
-        "specifications": {
-          "metal": "14K Gold",
-          "weight": "3.8 grams",
-          "gemstone": "None",
-          "carats": "N/A",
-          "dimensions": "Band width: 4mm"
-        },
-        "relatedProducts": ["gold-bangle-classic", "gold-stud-earrings", "mens-signet-ring"]
-      },
-      {
-        "id": "amethyst-cocktail-ring",
-        "name": "Amethyst Cocktail Ring",
-        "description": "Dazzling cocktail ring with deep purple amethyst centerpiece",
-        "price": 1699,
-        "image": "https://images.unsplash.com/photo-1633555715049-0c2777ee516e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "category": "Rings",
-        "karat": "18K",
-        "gemstone": "Amethyst",
-        "featured": false,
-        "collection": ["all", "ladies"],
-        "specifications": {
-          "metal": "18K Gold",
-          "weight": "5.4 grams",
-          "gemstone": "Amethyst",
-          "carats": "3.5 carats",
-          "dimensions": "Face size: 14mm diameter"
-        },
-        "relatedProducts": ["emerald-statement-ring", "sapphire-wedding-band", "ruby-pendant-necklace"]
-      },
-      {
         "id": "diamond-hoop-earrings",
         "name": "Diamond Hoop Earrings",
         "description": "Elegant diamond-studded hoop earrings for special occasions",
@@ -298,27 +138,7 @@
           "carats": "0.75 carats total",
           "dimensions": "25mm diameter"
         },
-        "relatedProducts": ["diamond-tennis-bracelet", "diamond-engagement-ring", "pearl-drop-earrings"]
-      },
-      {
-        "id": "ruby-stud-earrings",
-        "name": "Ruby Stud Earrings",
-        "description": "Vibrant ruby stud earrings with a secure screw back",
-        "price": 1599,
-        "image": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "category": "Earrings",
-        "karat": "18K",
-        "gemstone": "Ruby",
-        "featured": false,
-        "collection": ["all", "ladies"],
-        "specifications": {
-          "metal": "18K Gold",
-          "weight": "2.6 grams total",
-          "gemstone": "Ruby",
-          "carats": "0.6 carats each",
-          "dimensions": "5.5mm diameter"
-        },
-        "relatedProducts": ["22k-gold-ruby-ring", "ruby-pendant-necklace", "gold-stud-earrings"]
+        "relatedProducts": ["pearl-drop-earrings"]
       },
       {
         "id": "chandelier-earrings",
@@ -338,7 +158,7 @@
           "carats": "1.25 carats total",
           "dimensions": "Length: 45mm"
         },
-        "relatedProducts": ["diamond-hoop-earrings", "diamond-tennis-bracelet", "diamond-engagement-ring"]
+        "relatedProducts": ["diamond-hoop-earrings", "pearl-drop-earrings"]
       },
       {
         "id": "emerald-drop-earrings",
@@ -378,7 +198,7 @@
           "carats": "N/A",
           "dimensions": "12mm diameter"
         },
-        "relatedProducts": ["gold-stud-earrings", "twisted-gold-band", "gold-bangle-classic"]
+        "relatedProducts": ["gold-stud-earrings", "gold-bangle-classic", "gold-charm-bracelet"]
       },
       {
         "id": "diamond-pendant-necklace",
@@ -398,7 +218,7 @@
           "carats": "0.5 carat",
           "dimensions": "Chain length: 18\""
         },
-        "relatedProducts": ["diamond-engagement-ring", "diamond-hoop-earrings", "diamond-tennis-bracelet"]
+        "relatedProducts": ["diamond-engagement-ring", "diamond-hoop-earrings", "pearl-drop-earrings"]
       },
       {
         "id": "gold-layered-necklace",
@@ -418,7 +238,7 @@
           "carats": "N/A",
           "dimensions": "Chain lengths: 16\", 18\", 20\""
         },
-        "relatedProducts": ["gold-bangle-classic", "gold-stud-earrings", "twisted-gold-band"]
+        "relatedProducts": ["gold-bangle-classic", "gold-stud-earrings", "gold-charm-bracelet"]
       },
       {
         "id": "sapphire-pendant-necklace",
@@ -438,7 +258,7 @@
           "carats": "1.2 carat sapphire, 0.25 carats diamonds",
           "dimensions": "Chain length: adjustable 16-18\""
         },
-        "relatedProducts": ["sapphire-earrings", "sapphire-wedding-band", "emerald-gold-necklace"]
+        "relatedProducts": ["sapphire-earrings", "emerald-gold-necklace"]
       },
       {
         "id": "mens-gold-chain",
@@ -498,7 +318,7 @@
           "carats": "N/A",
           "dimensions": "Length: adjustable 6.5-8\""
         },
-        "relatedProducts": ["diamond-tennis-bracelet", "gold-bangle-classic", "gold-layered-necklace"]
+        "relatedProducts": ["pearl-drop-earrings", "gold-bangle-classic", "gold-layered-necklace"]
       },
       {
         "id": "mens-gold-bracelet",
@@ -541,26 +361,6 @@
         "relatedProducts": ["pearl-drop-earrings", "pearl-string-necklace", "gold-charm-bracelet"]
       },
       {
-        "id": "sapphire-bangle",
-        "name": "Sapphire Bangle Bracelet",
-        "description": "Elegant bangle with sapphire and diamond accents",
-        "price": 2499,
-        "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "category": "Bracelets",
-        "karat": "18K",
-        "gemstone": "Sapphire",
-        "featured": false,
-        "collection": ["all", "ladies"],
-        "specifications": {
-          "metal": "18K White Gold",
-          "weight": "18.5 grams",
-          "gemstone": "Sapphire, Diamond",
-          "carats": "1.5 carats sapphires, 0.25 carats diamonds",
-          "dimensions": "Inner diameter: 65mm, width: 5mm"
-        },
-        "relatedProducts": ["gold-bangle-classic", "sapphire-earrings", "sapphire-pendant-necklace"]
-      },
-      {
         "id": "rose-gold-cuff",
         "name": "Rose Gold Cuff Bracelet",
         "description": "Modern open cuff bracelet in polished rose gold",
@@ -578,7 +378,7 @@
           "carats": "N/A",
           "dimensions": "Size: adjustable, width: 8mm"
         },
-        "relatedProducts": ["gold-charm-bracelet", "gold-bangle-classic", "twisted-gold-band"]
+        "relatedProducts": ["gold-charm-bracelet", "gold-bangle-classic", "gold-layered-necklace"]
       },
       {
         "id": "diamond-bangle",
@@ -598,87 +398,7 @@
           "carats": "2.5 carats total",
           "dimensions": "Inner diameter: 65mm, width: 5mm"
         },
-        "relatedProducts": ["diamond-tennis-bracelet", "diamond-hoop-earrings", "diamond-pendant-necklace"]
-      },
-      {
-        "id": "twisted-gold-bangle",
-        "name": "Twisted Gold Bangle",
-        "description": "Modern twisted design bangle with unique texture",
-        "price": 2299,
-        "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "category": "Bangles",
-        "karat": "22K",
-        "gemstone": "None",
-        "featured": false,
-        "collection": ["all", "ladies"],
-        "specifications": {
-          "metal": "22K Gold",
-          "weight": "16.8 grams",
-          "gemstone": "None",
-          "carats": "N/A",
-          "dimensions": "Inner diameter: 65mm, width: 4mm"
-        },
-        "relatedProducts": ["gold-bangle-classic", "twisted-gold-band", "gold-charm-bracelet"]
-      },
-      {
-        "id": "ruby-bangle",
-        "name": "Ruby Accent Bangle",
-        "description": "Elegant gold bangle with ruby and diamond accents",
-        "price": 2999,
-        "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "category": "Bangles",
-        "karat": "18K",
-        "gemstone": "Ruby",
-        "featured": false,
-        "collection": ["all", "ladies"],
-        "specifications": {
-          "metal": "18K Gold",
-          "weight": "17.2 grams",
-          "gemstone": "Ruby, Diamond",
-          "carats": "1.2 carats rubies, 0.3 carats diamonds",
-          "dimensions": "Inner diameter: 65mm, width: 6mm"
-        },
-        "relatedProducts": ["22k-gold-ruby-ring", "ruby-stud-earrings", "ruby-pendant-necklace"]
-      },
-      {
-        "id": "rose-gold-bangle",
-        "name": "Rose Gold Bangle Set",
-        "description": "Set of three slim rose gold bangles",
-        "price": 1999,
-        "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "category": "Bangles",
-        "karat": "18K",
-        "gemstone": "None",
-        "featured": false,
-        "collection": ["all", "ladies"],
-        "specifications": {
-          "metal": "18K Rose Gold",
-          "weight": "12.5 grams total",
-          "gemstone": "None",
-          "carats": "N/A",
-          "dimensions": "Inner diameter: 65mm, width: 2mm each"
-        },
-        "relatedProducts": ["rose-gold-cuff", "gold-bangle-classic", "twisted-gold-bangle"]
-      },
-      {
-        "id": "emerald-bangle",
-        "name": "Emerald Bangle",
-        "description": "Luxurious bangle with emerald and diamond stations",
-        "price": 3499,
-        "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "category": "Bangles",
-        "karat": "18K",
-        "gemstone": "Emerald",
-        "featured": false,
-        "collection": ["all", "ladies"],
-        "specifications": {
-          "metal": "18K Gold",
-          "weight": "18.5 grams",
-          "gemstone": "Emerald, Diamond",
-          "carats": "1.5 carats emeralds, 0.5 carats diamonds",
-          "dimensions": "Inner diameter: 65mm, width: 5mm"
-        },
-        "relatedProducts": ["emerald-gold-necklace", "emerald-statement-ring", "emerald-drop-earrings"]
+        "relatedProducts": ["pearl-drop-earrings"]
       },
       {
         "id": "gold-cufflinks",
@@ -718,67 +438,327 @@
           "carats": "N/A",
           "dimensions": "16mm x 12mm each"
         },
-        "relatedProducts": ["gold-cufflinks", "mens-signet-ring", "mens-gold-bracelet"]
+        "relatedProducts": ["mens-signet-ring", "mens-gold-bracelet"]
       },
       {
-        "id": "mens-diamond-ring",
-        "name": "Men's Diamond Band",
-        "description": "Sophisticated men's ring with channel-set diamonds",
-        "price": 2499,
-        "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "category": "Men's Jewelry",
-        "karat": "18K",
-        "gemstone": "Diamond",
-        "featured": false,
-        "collection": ["all", "mens"],
-        "specifications": {
-          "metal": "18K White Gold",
-          "weight": "10.5 grams",
-          "gemstone": "Diamond",
-          "carats": "0.75 carats total",
-          "dimensions": "Band width: 7mm"
-        },
-        "relatedProducts": ["mens-signet-ring", "gold-cufflinks", "onyx-cufflinks"]
-      },
-      {
-        "id": "mens-black-bracelet",
-        "name": "Men's Gold and Leather Bracelet",
-        "description": "Modern bracelet combining black leather with gold accents",
-        "price": 1299,
-        "image": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "category": "Men's Jewelry",
-        "karat": "18K",
+        "id": "gold-bridal-set-1",
+        "name": "Traditional Gold Bridal Set",
+        "description": "Exquisite traditional bridal jewelry set with intricate designs",
+        "price": 8999,
+        "image": "/WhatsApp Image 2025-06-19 at 4.09.35 PM.jpeg",
+        "category": "Bridal Sets",
+        "karat": "22K",
         "gemstone": "None",
-        "featured": false,
-        "collection": ["all", "mens"],
+        "featured": true,
+        "collection": ["all", "ladies", "bridal"],
         "specifications": {
-          "metal": "18K Gold",
-          "weight": "15.5 grams",
+          "metal": "22K Gold",
+          "weight": "45.2 grams total",
           "gemstone": "None",
           "carats": "N/A",
-          "dimensions": "Length: adjustable 7.5-9\""
+          "dimensions": "Necklace: 20\", Earrings: 3cm drop"
         },
-        "relatedProducts": ["mens-gold-bracelet", "mens-signet-ring", "mens-gold-chain"]
+        "relatedProducts": ["gold-bridal-set-2", "emerald-gold-necklace", "pearl-drop-earrings"]
       },
       {
-        "id": "mens-gold-tie-clip",
-        "name": "Gold Tie Clip",
-        "description": "Classic gold tie clip with textured pattern",
-        "price": 899,
-        "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "category": "Men's Jewelry",
-        "karat": "18K",
+        "id": "gold-bridal-set-2",
+        "name": "Classic Gold Bridal Collection",
+        "description": "Timeless bridal jewelry collection with traditional motifs",
+        "price": 7499,
+        "image": "/WhatsApp Image 2025-06-19 at 4.09.35 PM (1).jpeg",
+        "category": "Bridal Sets",
+        "karat": "22K",
         "gemstone": "None",
-        "featured": false,
-        "collection": ["all", "mens"],
+        "featured": true,
+        "collection": ["all", "ladies", "bridal"],
         "specifications": {
-          "metal": "18K Gold",
-          "weight": "5.8 grams",
+          "metal": "22K Gold",
+          "weight": "38.5 grams total",
           "gemstone": "None",
           "carats": "N/A",
-          "dimensions": "55mm x 6mm"
+          "dimensions": "Necklace: 18\", Earrings: 2.5cm drop"
         },
-        "relatedProducts": ["gold-cufflinks", "onyx-cufflinks", "mens-signet-ring"]
+        "relatedProducts": ["gold-bridal-set-1", "gold-bridal-set-3", "diamond-engagement-ring"]
+      },
+      {
+        "id": "gold-bridal-set-3",
+        "name": "Elegant Gold Bridal Jewelry",
+        "description": "Sophisticated bridal jewelry with modern elegance",
+        "price": 6799,
+        "image": "/WhatsApp Image 2025-06-19 at 4.09.36 PM.jpeg",
+        "category": "Bridal Sets",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "ladies", "bridal"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "32.8 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Necklace: 16\", Earrings: 2cm drop"
+        },
+        "relatedProducts": ["gold-bridal-set-2", "gold-bridal-set-4", "pearl-drop-earrings"]
+      },
+      {
+        "id": "gold-bridal-set-4",
+        "name": "Royal Gold Bridal Set",
+        "description": "Regal bridal jewelry with majestic designs",
+        "price": 12999,
+        "image": "/WhatsApp Image 2025-06-19 at 4.09.36 PM (1).jpeg",
+        "category": "Bridal Sets",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": true,
+        "collection": ["all", "ladies", "bridal"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "68.5 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Necklace: 22\", Earrings: 4cm drop"
+        },
+        "relatedProducts": ["gold-bridal-set-3", "gold-bridal-set-5", "emerald-gold-necklace"]
+      },
+      {
+        "id": "gold-bridal-set-5",
+        "name": "Heritage Gold Bridal Collection",
+        "description": "Heritage-inspired bridal jewelry with cultural significance",
+        "price": 9599,
+        "image": "/WhatsApp Image 2025-06-19 at 4.09.36 PM (2).jpeg",
+        "category": "Bridal Sets",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "ladies", "bridal"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "52.3 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Necklace: 20\", Earrings: 3.5cm drop"
+        },
+        "relatedProducts": ["gold-bridal-set-4", "gold-bridal-set-6", "diamond-engagement-ring"]
+      },
+      {
+        "id": "gold-bridal-set-6",
+        "name": "Modern Gold Bridal Jewelry",
+        "description": "Contemporary bridal jewelry with traditional craftsmanship",
+        "price": 8299,
+        "image": "/WhatsApp Image 2025-06-19 at 4.09.36 PM (3).jpeg",
+        "category": "Bridal Sets",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "ladies", "bridal"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "41.7 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Necklace: 18\", Earrings: 2.8cm drop"
+        },
+        "relatedProducts": ["gold-bridal-set-5", "gold-bridal-set-7", "pearl-drop-earrings"]
+      },
+      {
+        "id": "gold-bridal-set-7",
+        "name": "Luxury Gold Bridal Set",
+        "description": "Premium bridal jewelry with intricate detailing",
+        "price": 11499,
+        "image": "/WhatsApp Image 2025-06-19 at 4.09.36 PM (4).jpeg",
+        "category": "Bridal Sets",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": true,
+        "collection": ["all", "ladies", "bridal"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "58.9 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Necklace: 21\", Earrings: 3.8cm drop"
+        },
+        "relatedProducts": ["gold-bridal-set-6", "gold-bridal-set-8", "emerald-gold-necklace"]
+      },
+      {
+        "id": "gold-bridal-set-8",
+        "name": "Artisan Gold Bridal Collection",
+        "description": "Handcrafted bridal jewelry with artistic excellence",
+        "price": 7899,
+        "image": "/WhatsApp Image 2025-06-19 at 4.09.36 PM (5).jpeg",
+        "category": "Bridal Sets",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "ladies", "bridal"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "35.4 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Necklace: 17\", Earrings: 2.2cm drop"
+        },
+        "relatedProducts": ["gold-bridal-set-7", "gold-bridal-set-9", "diamond-engagement-ring"]
+      },
+      {
+        "id": "gold-bridal-set-9",
+        "name": "Timeless Gold Bridal Jewelry",
+        "description": "Classic bridal jewelry that transcends generations",
+        "price": 6999,
+        "image": "/WhatsApp Image 2025-06-19 at 4.09.36 PM (6).jpeg",
+        "category": "Bridal Sets",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "ladies", "bridal"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "29.8 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Necklace: 16\", Earrings: 1.8cm drop"
+        },
+        "relatedProducts": ["gold-bridal-set-8", "gold-bridal-set-10", "pearl-drop-earrings"]
+      },
+      {
+        "id": "gold-bridal-set-10",
+        "name": "Premium Gold Bridal Set",
+        "description": "High-end bridal jewelry with superior craftsmanship",
+        "price": 10499,
+        "image": "/WhatsApp Image 2025-06-19 at 4.09.36 PM (7).jpeg",
+        "category": "Bridal Sets",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": true,
+        "collection": ["all", "ladies", "bridal"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "55.2 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Necklace: 20\", Earrings: 3.2cm drop"
+        },
+        "relatedProducts": ["gold-bridal-set-9", "gold-bridal-set-11", "emerald-gold-necklace"]
+      },
+      {
+        "id": "gold-bridal-set-11",
+        "name": "Exclusive Gold Bridal Collection",
+        "description": "Exclusive bridal jewelry with unique designs",
+        "price": 13999,
+        "image": "/WhatsApp Image 2025-06-19 at 4.09.36 PM (8).jpeg",
+        "category": "Bridal Sets",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": true,
+        "collection": ["all", "ladies", "bridal"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "72.8 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Necklace: 24\", Earrings: 4.5cm drop"
+        },
+        "relatedProducts": ["gold-bridal-set-10", "gold-bridal-set-12", "diamond-engagement-ring"]
+      },
+      {
+        "id": "gold-bridal-set-12",
+        "name": "Signature Gold Bridal Jewelry",
+        "description": "Signature bridal jewelry with distinctive style",
+        "price": 8799,
+        "image": "/WhatsApp Image 2025-06-19 at 4.09.37 PM.jpeg",
+        "category": "Bridal Sets",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "ladies", "bridal"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "43.6 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Necklace: 19\", Earrings: 2.9cm drop"
+        },
+        "relatedProducts": ["gold-bridal-set-11", "gold-bridal-set-13", "pearl-drop-earrings"]
+      },
+      {
+        "id": "gold-bridal-set-13",
+        "name": "Elite Gold Bridal Set",
+        "description": "Elite bridal jewelry for the discerning bride",
+        "price": 11999,
+        "image": "/WhatsApp Image 2025-06-19 at 4.09.37 PM (1).jpeg",
+        "category": "Bridal Sets",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": true,
+        "collection": ["all", "ladies", "bridal"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "61.5 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Necklace: 21\", Earrings: 3.6cm drop"
+        },
+        "relatedProducts": ["gold-bridal-set-12", "gold-bridal-set-14", "emerald-gold-necklace"]
+      },
+      {
+        "id": "gold-bridal-set-14",
+        "name": "Masterpiece Gold Bridal Collection",
+        "description": "Masterpiece bridal jewelry with artistic brilliance",
+        "price": 15499,
+        "image": "/WhatsApp Image 2025-06-19 at 4.09.37 PM (2).jpeg",
+        "category": "Bridal Sets",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": true,
+        "collection": ["all", "ladies", "bridal"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "85.2 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Necklace: 26\", Earrings: 5cm drop"
+        },
+        "relatedProducts": ["gold-bridal-set-13", "gold-bridal-set-15", "diamond-engagement-ring"]
+      },
+      {
+        "id": "gold-bridal-set-15",
+        "name": "Legacy Gold Bridal Jewelry",
+        "description": "Legacy bridal jewelry with timeless appeal",
+        "price": 9999,
+        "image": "/WhatsApp Image 2025-06-19 at 4.09.37 PM (3).jpeg",
+        "category": "Bridal Sets",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": false,
+        "collection": ["all", "ladies", "bridal"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "48.7 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Necklace: 20\", Earrings: 3.1cm drop"
+        },
+        "relatedProducts": ["gold-bridal-set-14", "gold-bridal-set-16", "pearl-drop-earrings"]
+      },
+      {
+        "id": "gold-bridal-set-16",
+        "name": "Crown Gold Bridal Set",
+        "description": "Crown-worthy bridal jewelry with majestic elegance",
+        "price": 16999,
+        "image": "/WhatsApp Image 2025-06-19 at 4.09.37 PM (4).jpeg",
+        "category": "Bridal Sets",
+        "karat": "22K",
+        "gemstone": "None",
+        "featured": true,
+        "collection": ["all", "ladies", "bridal"],
+        "specifications": {
+          "metal": "22K Gold",
+          "weight": "95.8 grams total",
+          "gemstone": "None",
+          "carats": "N/A",
+          "dimensions": "Necklace: 28\", Earrings: 5.5cm drop"
+        },
+        "relatedProducts": ["gold-bridal-set-15", "gold-bridal-set-1", "emerald-gold-necklace"]
       }
     ]
   }
